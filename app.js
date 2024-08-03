@@ -94,7 +94,7 @@ import { signInWithEmailAndPassword ,
   
   const githubProvider = new GithubAuthProvider();
   
-  github.addEventListener('click' , ()=>{
+  github.addEventListener('click' , ()=>{ 
   
   console.log("github login");
   
